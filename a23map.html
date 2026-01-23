@@ -219,7 +219,7 @@ function setPanelForSubstation(p){
   const milBy  = p.matched_military_by_kind  || p.__matched_military_by_kind  || {};
 
   const superiorHosp = num(hospBy["상급종합병원"]);          // 병원: 상급종합병원만
-  const mil123 = sumKeys(milBy, ["1","2","3"]);              // 군: 1~3만
+  const mil123 = sumKeys(milBy, ["1","2","3","undefined"]);              // 군: 1~3만
 
   const totalWanted = superiorHosp + mil123;
 
@@ -227,16 +227,16 @@ function setPanelForSubstation(p){
     <div class="row"><b>${esc(name)}</b></div>
 
     <div class="row">연결된 상급종합병원: <span class="badge">${superiorHosp}</span></div>
-    <div class="row">연결된 군사시설(1~3): <span class="badge">${mil123}</span></div>
+    <div class="row">연결된 군사시설(1~3+undefined): <span class="badge">${mil123}</span></div>
     <div class="row">합계: <span class="badge">${totalWanted}</span></div>
 
     <details>
-      <summary>병원 유형별(참고)</summary>
+      <summary>병원 유형별</summary>
       ${dictToTable(hospBy)}
     </details>
 
     <details>
-      <summary>군시설 유형별(참고)</summary>
+      <summary>군시설 유형별</summary>
       ${dictToTable(milBy)}
     </details>
   `;
@@ -391,3 +391,4 @@ function setPanelForSubstation(p){
 </script>
 </body>
 </html>
+
