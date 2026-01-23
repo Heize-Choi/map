@@ -1,0 +1,4444 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 1,
+        "Latitude": 38.1476054,
+        "Longitude": 127.302627,
+        "name_Korean": "철원",
+        "name_English": "Cheorwon",
+        "name": "",
+        "__lat": 38.1476054,
+        "__lon": 127.302627,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.302627,
+          38.1476054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 2,
+        "Latitude": 38.0155011,
+        "Longitude": 127.0712073,
+        "name_Korean": "연천",
+        "name_English": "Yeoncheon",
+        "name": "",
+        "__lat": 38.0155011,
+        "__lon": 127.0712073,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0712073,
+          38.0155011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 3,
+        "Latitude": 37.8903061,
+        "Longitude": 127.1952799,
+        "name_Korean": "포천",
+        "name_English": "Pocheon",
+        "name": "",
+        "__lat": 37.8903061,
+        "__lon": 127.1952799,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1952799,
+          37.8903061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 4,
+        "Latitude": 37.8892659,
+        "Longitude": 127.0574671,
+        "name_Korean": "동두천",
+        "name_English": "Dongducheon",
+        "name": "",
+        "__lat": 37.8892659,
+        "__lon": 127.0574671,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0574671,
+          37.8892659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 5,
+        "Latitude": 37.8339742,
+        "Longitude": 127.5105312,
+        "name_Korean": "가평",
+        "name_English": "Gapyeong",
+        "name": "",
+        "__lat": 37.8339742,
+        "__lon": 127.5105312,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5105312,
+          37.8339742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 6,
+        "Latitude": 37.7427185,
+        "Longitude": 126.4981355,
+        "name_Korean": "강화",
+        "name_English": "Ganghwa",
+        "name": "",
+        "__lat": 37.7427185,
+        "__lon": 126.4981355,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4981355,
+          37.7427185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 7,
+        "Latitude": 37.7368222,
+        "Longitude": 127.0820244,
+        "name_Korean": "경기북부",
+        "name_English": "Northern Gyeonggi",
+        "name": "",
+        "__lat": 37.7368222,
+        "__lon": 127.0820244,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0820244,
+          37.7368222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 8,
+        "Latitude": 37.7294666,
+        "Longitude": 126.7588877,
+        "name_Korean": "파주",
+        "name_English": "Paju",
+        "name": "",
+        "__lat": 37.7294666,
+        "__lon": 126.7588877,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7588877,
+          37.7294666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 9,
+        "Latitude": 37.6539176,
+        "Longitude": 127.0556668,
+        "name_Korean": "노원도봉",
+        "name_English": "Nowon-Dobong",
+        "name": "",
+        "__lat": 37.6539176,
+        "__lon": 127.0556668,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0556668,
+          37.6539176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 10,
+        "Latitude": 37.6415246,
+        "Longitude": 126.787805,
+        "name_Korean": "고양",
+        "name_English": "Goyang",
+        "name": "",
+        "__lat": 37.6415246,
+        "__lon": 126.787805,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.787805,
+          37.6415246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 11,
+        "Latitude": 37.6392059,
+        "Longitude": 126.6811981,
+        "name_Korean": "김포",
+        "name_English": "Gimpo",
+        "name": "",
+        "__lat": 37.6392059,
+        "__lon": 126.6811981,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6811981,
+          37.6392059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 12,
+        "Latitude": 37.6305681,
+        "Longitude": 127.0249447,
+        "name_Korean": "강북성북",
+        "name_English": "Gangbuk-Seongbuk",
+        "name": "",
+        "__lat": 37.6305681,
+        "__lon": 127.0249447,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0249447,
+          37.6305681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 13,
+        "Latitude": 37.6074444,
+        "Longitude": 127.0791618,
+        "name_Korean": "동대문중랑",
+        "name_English": "Dongdaemun-Jungnang",
+        "name": "",
+        "__lat": 37.6074444,
+        "__lon": 127.0791618,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0791618,
+          37.6074444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 14,
+        "Latitude": 37.6053447,
+        "Longitude": 126.933673,
+        "name_Korean": "서대문은평",
+        "name_English": "Seodaemun-Eunpyeong",
+        "name": "",
+        "__lat": 37.6053447,
+        "__lon": 126.933673,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.933673,
+          37.6053447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 15,
+        "Latitude": 37.5978157,
+        "Longitude": 127.1347986,
+        "name_Korean": "구리",
+        "name_English": "Guri",
+        "name": "",
+        "__lat": 37.5978157,
+        "__lon": 127.1347986,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1347986,
+          37.5978157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 16,
+        "Latitude": 37.5960136,
+        "Longitude": 127.1741195,
+        "name_Korean": "남양주",
+        "name_English": "Namyangju",
+        "name": "",
+        "__lat": 37.5960136,
+        "__lon": 127.1741195,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1741195,
+          37.5960136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 17,
+        "Latitude": 37.567708,
+        "Longitude": 127.0340591,
+        "name_Korean": "광진성동",
+        "name_English": "Gwangjin-Seongdong",
+        "name": "",
+        "__lat": 37.567708,
+        "__lon": 127.0340591,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0340591,
+          37.567708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 18,
+        "Latitude": 37.5652217,
+        "Longitude": 126.9832853,
+        "name_Korean": "서울",
+        "name_English": "Seoul",
+        "name": "",
+        "__lat": 37.5652217,
+        "__lon": 126.9832853,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9832853,
+          37.5652217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 19,
+        "Latitude": 37.5418771,
+        "Longitude": 126.9465978,
+        "name_Korean": "마포용산",
+        "name_English": "Mapo-Yongsan",
+        "name": "",
+        "__lat": 37.5418771,
+        "__lon": 126.9465978,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9465978,
+          37.5418771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 20,
+        "Latitude": 37.5355966,
+        "Longitude": 127.227846,
+        "name_Korean": "하남",
+        "name_English": "Hanam",
+        "name": "",
+        "__lat": 37.5355966,
+        "__lon": 127.227846,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.227846,
+          37.5355966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 21,
+        "Latitude": 37.5338753,
+        "Longitude": 126.6449679,
+        "name_Korean": "서인천",
+        "name_English": "Western Incheon",
+        "name": "",
+        "__lat": 37.5338753,
+        "__lon": 126.6449679,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6449679,
+          37.5338753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 22,
+        "Latitude": 37.5238222,
+        "Longitude": 127.1355704,
+        "name_Korean": "강동송파",
+        "name_English": "Gangdong-Songpa",
+        "name": "",
+        "__lat": 37.5238222,
+        "__lon": 127.1355704,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1355704,
+          37.5238222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 23,
+        "Latitude": 37.5201646,
+        "Longitude": 126.8928588,
+        "name_Korean": "남서울",
+        "name_English": "Southern Seoul",
+        "name": "",
+        "__lat": 37.5201646,
+        "__lon": 126.8928588,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8928588,
+          37.5201646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 24,
+        "Latitude": 37.5197369,
+        "Longitude": 126.8688415,
+        "name_Korean": "강서양천",
+        "name_English": "Gangseo-Yangcheon",
+        "name": "",
+        "__lat": 37.5197369,
+        "__lon": 126.8688415,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8688415,
+          37.5197369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 25,
+        "Latitude": 37.5168001,
+        "Longitude": 126.7275198,
+        "name_Korean": "인천",
+        "name_English": "Incheon",
+        "name": "",
+        "__lat": 37.5168001,
+        "__lon": 126.7275198,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7275198,
+          37.5168001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 26,
+        "Latitude": 37.507079,
+        "Longitude": 126.7863724,
+        "name_Korean": "부천",
+        "name_English": "Bucheon",
+        "name": "",
+        "__lat": 37.507079,
+        "__lon": 126.7863724,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7863724,
+          37.507079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 27,
+        "Latitude": 37.4894849,
+        "Longitude": 126.5002177,
+        "name_Korean": "영종",
+        "name_English": "Yeongjong",
+        "name": "",
+        "__lat": 37.4894849,
+        "__lon": 126.5002177,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5002177,
+          37.4894849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 28,
+        "Latitude": 37.4872312,
+        "Longitude": 127.4811936,
+        "name_Korean": "양평",
+        "name_English": "Yangpyeong",
+        "name": "",
+        "__lat": 37.4872312,
+        "__lon": 127.4811936,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4811936,
+          37.4872312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 29,
+        "Latitude": 37.4869344,
+        "Longitude": 127.0334941,
+        "name_Korean": "강남",
+        "name_English": "Gangnam",
+        "name": "",
+        "__lat": 37.4869344,
+        "__lon": 127.0334941,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0334941,
+          37.4869344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 30,
+        "Latitude": 37.4856988,
+        "Longitude": 127.0279981,
+        "name_Korean": "서초",
+        "name_English": "Seocho",
+        "name": "",
+        "__lat": 37.4856988,
+        "__lon": 127.0279981,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0279981,
+          37.4856988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 31,
+        "Latitude": 37.4781083,
+        "Longitude": 126.9811097,
+        "name_Korean": "관악동작",
+        "name_English": "Gwanak-Dongjak",
+        "name": "",
+        "__lat": 37.4781083,
+        "__lon": 126.9811097,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9811097,
+          37.4781083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 32,
+        "Latitude": 37.4770417,
+        "Longitude": 126.8660242,
+        "name_Korean": "광명",
+        "name_English": "Gwangmyeong",
+        "name": "",
+        "__lat": 37.4770417,
+        "__lon": 126.8660242,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8660242,
+          37.4770417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 33,
+        "Latitude": 37.4722139,
+        "Longitude": 126.8976898,
+        "name_Korean": "구로금천",
+        "name_English": "Guro-Geumcheon",
+        "name": "",
+        "__lat": 37.4722139,
+        "__lon": 126.8976898,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8976898,
+          37.4722139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 34,
+        "Latitude": 37.4693214,
+        "Longitude": 126.6602658,
+        "name_Korean": "제물포",
+        "name_English": "Jemulpo",
+        "name": "",
+        "__lat": 37.4693214,
+        "__lon": 126.6602658,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6602658,
+          37.4693214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 35,
+        "Latitude": 37.4467266,
+        "Longitude": 126.8032345,
+        "name_Korean": "시흥",
+        "name_English": "Siheung",
+        "name": "",
+        "__lat": 37.4467266,
+        "__lon": 126.8032345,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8032345,
+          37.4467266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 36,
+        "Latitude": 37.4443903,
+        "Longitude": 127.1305195,
+        "name_Korean": "성남",
+        "name_English": "Seongnam",
+        "name": "",
+        "__lat": 37.4443903,
+        "__lon": 127.1305195,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1305195,
+          37.4443903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 37,
+        "Latitude": 37.4250107,
+        "Longitude": 126.6682817,
+        "name_Korean": "남인천",
+        "name_English": "Southern Incheon",
+        "name": "",
+        "__lat": 37.4250107,
+        "__lon": 126.6682817,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6682817,
+          37.4250107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 38,
+        "Latitude": 37.4055498,
+        "Longitude": 127.2595176,
+        "name_Korean": "광주",
+        "name_English": "Gwangju",
+        "name": "",
+        "__lat": 37.4055498,
+        "__lon": 127.2595176,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2595176,
+          37.4055498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 39,
+        "Latitude": 37.3838862,
+        "Longitude": 126.9472815,
+        "name_Korean": "안양",
+        "name_English": "Anyang",
+        "name": "",
+        "__lat": 37.3838862,
+        "__lon": 126.9472815,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9472815,
+          37.3838862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 40,
+        "Latitude": 37.3205935,
+        "Longitude": 126.827539,
+        "name_Korean": "안산",
+        "name_English": "Ansan",
+        "name": "",
+        "__lat": 37.3205935,
+        "__lon": 126.827539,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.827539,
+          37.3205935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 41,
+        "Latitude": 37.2894137,
+        "Longitude": 127.6350458,
+        "name_Korean": "여주",
+        "name_English": "Yeoju",
+        "name": "",
+        "__lat": 37.2894137,
+        "__lon": 127.6350458,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6350458,
+          37.2894137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 42,
+        "Latitude": 37.2832499,
+        "Longitude": 127.4473318,
+        "name_Korean": "이천",
+        "name_English": "Icheon",
+        "name": "",
+        "__lat": 37.2832499,
+        "__lon": 127.4473318,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4473318,
+          37.2832499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 43,
+        "Latitude": 37.2774786,
+        "Longitude": 127.0294786,
+        "name_Korean": "경기",
+        "name_English": "Gyeonggi",
+        "name": "",
+        "__lat": 37.2774786,
+        "__lon": 127.0294786,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0294786,
+          37.2774786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 44,
+        "Latitude": 37.2581477,
+        "Longitude": 126.9692066,
+        "name_Korean": "서수원",
+        "name_English": "West Suwon",
+        "name": "",
+        "__lat": 37.2581477,
+        "__lon": 126.9692066,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9692066,
+          37.2581477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 45,
+        "Latitude": 37.2581195,
+        "Longitude": 127.1141296,
+        "name_Korean": "서용인",
+        "name_English": "West Yongin",
+        "name": "",
+        "__lat": 37.2581195,
+        "__lon": 127.1141296,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1141296,
+          37.2581195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 46,
+        "Latitude": 37.2346559,
+        "Longitude": 127.2056971,
+        "name_Korean": "동용인",
+        "name_English": "East Yongin",
+        "name": "",
+        "__lat": 37.2346559,
+        "__lon": 127.2056971,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2056971,
+          37.2346559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 47,
+        "Latitude": 37.2062516,
+        "Longitude": 126.7716263,
+        "name_Korean": "화성",
+        "name_English": "Hwaseong",
+        "name": "",
+        "__lat": 37.2062516,
+        "__lon": 126.7716263,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7716263,
+          37.2062516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 48,
+        "Latitude": 37.135409,
+        "Longitude": 127.0724671,
+        "name_Korean": "오산",
+        "name_English": "Osan",
+        "name": "",
+        "__lat": 37.135409,
+        "__lon": 127.0724671,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0724671,
+          37.135409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 49,
+        "Latitude": 37.0189007,
+        "Longitude": 126.9162141,
+        "name_Korean": "서평택",
+        "name_English": "West Pyeongtaek",
+        "name": "",
+        "__lat": 37.0189007,
+        "__lon": 126.9162141,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9162141,
+          37.0189007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 50,
+        "Latitude": 37.0079405,
+        "Longitude": 127.2642685,
+        "name_Korean": "안성",
+        "name_English": "Anseong",
+        "name": "",
+        "__lat": 37.0079405,
+        "__lon": 127.2642685,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2642685,
+          37.0079405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 51,
+        "Latitude": 36.9912891,
+        "Longitude": 127.1073892,
+        "name_Korean": "평택",
+        "name_English": "Pyeongtaek",
+        "name": "",
+        "__lat": 36.9912891,
+        "__lon": 127.1073892,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1073892,
+          36.9912891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 52,
+        "Latitude": 36.9343927,
+        "Longitude": 127.6953281,
+        "name_Korean": "음성",
+        "name_English": "Eumseong",
+        "name": "",
+        "__lat": 36.9343927,
+        "__lon": 127.6953281,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6953281,
+          36.9343927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 53,
+        "Latitude": 36.8870577,
+        "Longitude": 126.6403163,
+        "name_Korean": "당진",
+        "name_English": "Dangjin",
+        "name": "",
+        "__lat": 36.8870577,
+        "__lon": 126.6403163,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6403163,
+          36.8870577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 54,
+        "Latitude": 36.8540755,
+        "Longitude": 127.435928,
+        "name_Korean": "진천",
+        "name_English": "Jincheon",
+        "name": "",
+        "__lat": 36.8540755,
+        "__lon": 127.435928,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.435928,
+          36.8540755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 55,
+        "Latitude": 36.8264525,
+        "Longitude": 127.1314313,
+        "name_Korean": "천안",
+        "name_English": "Cheonan",
+        "name": "",
+        "__lat": 36.8264525,
+        "__lon": 127.1314313,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1314313,
+          36.8264525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 56,
+        "Latitude": 36.7890676,
+        "Longitude": 127.5880688,
+        "name_Korean": "증평괴산",
+        "name_English": "Jeungpyeong-Goesan",
+        "name": "",
+        "__lat": 36.7890676,
+        "__lon": 127.5880688,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5880688,
+          36.7890676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 57,
+        "Latitude": 36.7876783,
+        "Longitude": 127.0078012,
+        "name_Korean": "아산",
+        "name_English": "Asan",
+        "name": "",
+        "__lat": 36.7876783,
+        "__lon": 127.0078012,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0078012,
+          36.7876783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 58,
+        "Latitude": 36.7749838,
+        "Longitude": 126.4542918,
+        "name_Korean": "서산",
+        "name_English": "Seosan",
+        "name": "",
+        "__lat": 36.7749838,
+        "__lon": 126.4542918,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4542918,
+          36.7749838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 59,
+        "Latitude": 36.7472915,
+        "Longitude": 126.2989917,
+        "name_Korean": "태안",
+        "name_English": "Taean",
+        "name": "",
+        "__lat": 36.7472915,
+        "__lon": 126.2989917,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.2989917,
+          36.7472915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 60,
+        "Latitude": 36.6886775,
+        "Longitude": 126.8433622,
+        "name_Korean": "예산",
+        "name_English": "Yesan",
+        "name": "",
+        "__lat": 36.6886775,
+        "__lon": 126.8433622,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8433622,
+          36.6886775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 61,
+        "Latitude": 36.6482024,
+        "Longitude": 127.4868526,
+        "name_Korean": "동청주",
+        "name_English": "Eastern Cheongju",
+        "name": "",
+        "__lat": 36.6482024,
+        "__lon": 127.4868526,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4868526,
+          36.6482024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 62,
+        "Latitude": 36.6152516,
+        "Longitude": 127.4505384,
+        "name_Korean": "충북",
+        "name_English": "Chungbuk",
+        "name": "",
+        "__lat": 36.6152516,
+        "__lon": 127.4505384,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4505384,
+          36.6152516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 63,
+        "Latitude": 36.6024768,
+        "Longitude": 126.6523497,
+        "name_Korean": "홍성",
+        "name_English": "Hongseong",
+        "name": "",
+        "__lat": 36.6024768,
+        "__lon": 126.6523497,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6523497,
+          36.6024768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 64,
+        "Latitude": 36.4910403,
+        "Longitude": 127.3037974,
+        "name_Korean": "세종",
+        "name_English": "Sejong",
+        "name": "",
+        "__lat": 36.4910403,
+        "__lon": 127.3037974,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3037974,
+          36.4910403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 65,
+        "Latitude": 38.211761,
+        "Longitude": 128.5905534,
+        "name_Korean": "속초고성",
+        "name_English": "Sokcho-Goseong",
+        "name": "",
+        "__lat": 38.211761,
+        "__lon": 128.5905534,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5905534,
+          38.211761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 66,
+        "Latitude": 38.1109325,
+        "Longitude": 127.7078886,
+        "name_Korean": "화천",
+        "name_English": "Hwacheon",
+        "name": "",
+        "__lat": 38.1109325,
+        "__lon": 127.7078886,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7078886,
+          38.1109325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 67,
+        "Latitude": 38.1083094,
+        "Longitude": 127.9861374,
+        "name_Korean": "양구",
+        "name_English": "Yanggu",
+        "name": "",
+        "__lat": 38.1083094,
+        "__lon": 127.9861374,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9861374,
+          38.1083094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 68,
+        "Latitude": 38.0722354,
+        "Longitude": 128.6177014,
+        "name_Korean": "양양",
+        "name_English": "Yangyang",
+        "name": "",
+        "__lat": 38.0722354,
+        "__lon": 128.6177014,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6177014,
+          38.0722354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 69,
+        "Latitude": 38.065981,
+        "Longitude": 128.1662155,
+        "name_Korean": "인제",
+        "name_English": "Inje",
+        "name": "",
+        "__lat": 38.065981,
+        "__lon": 128.1662155,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.1662155,
+          38.065981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 70,
+        "Latitude": 37.8841012,
+        "Longitude": 127.7515791,
+        "name_Korean": "강원",
+        "name_English": "Gangwon",
+        "name": "",
+        "__lat": 37.8841012,
+        "__lon": 127.7515791,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7515791,
+          37.8841012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 71,
+        "Latitude": 37.782175,
+        "Longitude": 128.91881,
+        "name_Korean": "강릉",
+        "name_English": "Gangneung",
+        "name": "",
+        "__lat": 37.782175,
+        "__lon": 128.91881,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.91881,
+          37.782175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 72,
+        "Latitude": 37.6854547,
+        "Longitude": 127.8772733,
+        "name_Korean": "홍천",
+        "name_English": "Hongcheon",
+        "name": "",
+        "__lat": 37.6854547,
+        "__lon": 127.8772733,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8772733,
+          37.6854547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 73,
+        "Latitude": 37.5257024,
+        "Longitude": 129.1079441,
+        "name_Korean": "동해",
+        "name_English": "Donghae",
+        "name": "",
+        "__lat": 37.5257024,
+        "__lon": 129.1079441,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1079441,
+          37.5257024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 74,
+        "Latitude": 37.4889479,
+        "Longitude": 127.9828042,
+        "name_Korean": "횡성",
+        "name_English": "Hoengseong",
+        "name": "",
+        "__lat": 37.4889479,
+        "__lon": 127.9828042,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9828042,
+          37.4889479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 75,
+        "Latitude": 37.4343249,
+        "Longitude": 129.1779432,
+        "name_Korean": "삼척",
+        "name_English": "Samcheok",
+        "name": "",
+        "__lat": 37.4343249,
+        "__lon": 129.1779432,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1779432,
+          37.4343249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 76,
+        "Latitude": 37.380063,
+        "Longitude": 128.6504248,
+        "name_Korean": "정선",
+        "name_English": "Jeongseon",
+        "name": "",
+        "__lat": 37.380063,
+        "__lon": 128.6504248,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6504248,
+          37.380063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 77,
+        "Latitude": 37.3728881,
+        "Longitude": 127.9382723,
+        "name_Korean": "원주",
+        "name_English": "Wonju",
+        "name": "",
+        "__lat": 37.3728881,
+        "__lon": 127.9382723,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9382723,
+          37.3728881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 78,
+        "Latitude": 37.3706367,
+        "Longitude": 128.4036121,
+        "name_Korean": "평창",
+        "name_English": "Pyeongchang",
+        "name": "",
+        "__lat": 37.3706367,
+        "__lon": 128.4036121,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4036121,
+          37.3706367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 79,
+        "Latitude": 37.1710591,
+        "Longitude": 128.4787543,
+        "name_Korean": "영월",
+        "name_English": "Yeongwol",
+        "name": "",
+        "__lat": 37.1710591,
+        "__lon": 128.4787543,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4787543,
+          37.1710591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 80,
+        "Latitude": 37.158431,
+        "Longitude": 128.9869811,
+        "name_Korean": "태백",
+        "name_English": "Taebaek",
+        "name": "",
+        "__lat": 37.158431,
+        "__lon": 128.9869811,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9869811,
+          37.158431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 81,
+        "Latitude": 37.1392858,
+        "Longitude": 128.2066643,
+        "name_Korean": "제천",
+        "name_English": "Jecheon",
+        "name": "",
+        "__lat": 37.1392858,
+        "__lon": 128.2066643,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.2066643,
+          37.1392858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 82,
+        "Latitude": 36.9889644,
+        "Longitude": 129.3949525,
+        "name_Korean": "울진",
+        "name_English": "Uljin",
+        "name": "",
+        "__lat": 36.9889644,
+        "__lon": 129.3949525,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3949525,
+          36.9889644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 83,
+        "Latitude": 36.9866896,
+        "Longitude": 128.3675379,
+        "name_Korean": "단양",
+        "name_English": "Danyang",
+        "name": "",
+        "__lat": 36.9866896,
+        "__lon": 128.3675379,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3675379,
+          36.9866896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 84,
+        "Latitude": 36.9800022,
+        "Longitude": 127.9163821,
+        "name_Korean": "충주",
+        "name_English": "Chungju",
+        "name": "",
+        "__lat": 36.9800022,
+        "__lon": 127.9163821,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9163821,
+          36.9800022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 85,
+        "Latitude": 36.8861246,
+        "Longitude": 128.7414472,
+        "name_Korean": "봉화",
+        "name_English": "Bonghwa",
+        "name": "",
+        "__lat": 36.8861246,
+        "__lon": 128.7414472,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7414472,
+          36.8861246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 86,
+        "Latitude": 36.8244885,
+        "Longitude": 128.6220788,
+        "name_Korean": "영주",
+        "name_English": "Yeongju",
+        "name": "",
+        "__lat": 36.8244885,
+        "__lon": 128.6220788,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6220788,
+          36.8244885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 87,
+        "Latitude": 36.6611743,
+        "Longitude": 128.4608929,
+        "name_Korean": "예천",
+        "name_English": "Yecheon",
+        "name": "",
+        "__lat": 36.6611743,
+        "__lon": 128.4608929,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4608929,
+          36.6611743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 88,
+        "Latitude": 36.6597467,
+        "Longitude": 129.1110463,
+        "name_Korean": "영양",
+        "name_English": "Yeongyang",
+        "name": "",
+        "__lat": 36.6597467,
+        "__lon": 129.1110463,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1110463,
+          36.6597467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 89,
+        "Latitude": 36.5878187,
+        "Longitude": 128.1897318,
+        "name_Korean": "문경",
+        "name_English": "Mungyeong",
+        "name": "",
+        "__lat": 36.5878187,
+        "__lon": 128.1897318,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.1897318,
+          36.5878187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 90,
+        "Latitude": 36.5525762,
+        "Longitude": 128.7328845,
+        "name_Korean": "경북",
+        "name_English": "Gyeongbuk",
+        "name": "",
+        "__lat": 36.5525762,
+        "__lon": 128.7328845,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7328845,
+          36.5525762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 91,
+        "Latitude": 36.4810593,
+        "Longitude": 127.7121993,
+        "name_Korean": "보은",
+        "name_English": "Boeun",
+        "name": "",
+        "__lat": 36.4810593,
+        "__lon": 127.7121993,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7121993,
+          36.4810593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 92,
+        "Latitude": 36.4360411,
+        "Longitude": 129.0528372,
+        "name_Korean": "청송",
+        "name_English": "Cheongsong",
+        "name": "",
+        "__lat": 36.4360411,
+        "__lon": 129.0528372,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0528372,
+          36.4360411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 93,
+        "Latitude": 36.4195462,
+        "Longitude": 128.1492358,
+        "name_Korean": "상주",
+        "name_English": "Sangju",
+        "name": "",
+        "__lat": 36.4195462,
+        "__lon": 128.1492358,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.1492358,
+          36.4195462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 94,
+        "Latitude": 36.4113658,
+        "Longitude": 129.3752987,
+        "name_Korean": "영덕",
+        "name_English": "Yeongdeok",
+        "name": "",
+        "__lat": 36.4113658,
+        "__lon": 129.3752987,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3752987,
+          36.4113658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 95,
+        "Latitude": 36.3486262,
+        "Longitude": 128.6737337,
+        "name_Korean": "의성",
+        "name_English": "Uiseong",
+        "name": "",
+        "__lat": 36.3486262,
+        "__lon": 128.6737337,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6737337,
+          36.3486262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 96,
+        "Latitude": 36.4535516,
+        "Longitude": 127.1340966,
+        "name_Korean": "공주",
+        "name_English": "Gongju",
+        "name": "",
+        "__lat": 36.4535516,
+        "__lon": 127.1340966,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1340966,
+          36.4535516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 97,
+        "Latitude": 36.4447748,
+        "Longitude": 126.7987398,
+        "name_Korean": "청양",
+        "name_English": "Cheongyang",
+        "name": "",
+        "__lat": 36.4447748,
+        "__lon": 126.7987398,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7987398,
+          36.4447748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 98,
+        "Latitude": 36.359899,
+        "Longitude": 127.4347396,
+        "name_Korean": "대전세종충남",
+        "name_English": "Daejeon-Sejong-Chungnam",
+        "name": "",
+        "__lat": 36.359899,
+        "__lon": 127.4347396,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4347396,
+          36.359899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 99,
+        "Latitude": 36.3526702,
+        "Longitude": 127.3429771,
+        "name_Korean": "대덕유성",
+        "name_English": "Daedeok-Yuseong",
+        "name": "",
+        "__lat": 36.3526702,
+        "__lon": 127.3429771,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3429771,
+          36.3526702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 100,
+        "Latitude": 36.3376329,
+        "Longitude": 126.6231707,
+        "name_Korean": "보령",
+        "name_English": "Boryeong",
+        "name": "",
+        "__lat": 36.3376329,
+        "__lon": 126.6231707,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6231707,
+          36.3376329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 101,
+        "Latitude": 36.3285382,
+        "Longitude": 127.3732048,
+        "name_Korean": "서대전",
+        "name_English": "Western Daejeon",
+        "name": "",
+        "__lat": 36.3285382,
+        "__lon": 127.3732048,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3732048,
+          36.3285382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 102,
+        "Latitude": 36.3042072,
+        "Longitude": 127.5671475,
+        "name_Korean": "옥천",
+        "name_English": "Okcheon",
+        "name": "",
+        "__lat": 36.3042072,
+        "__lon": 127.5671475,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5671475,
+          36.3042072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 103,
+        "Latitude": 36.2832042,
+        "Longitude": 126.9304461,
+        "name_Korean": "부여",
+        "name_English": "Buyeo",
+        "name": "",
+        "__lat": 36.2832042,
+        "__lon": 126.9304461,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9304461,
+          36.2832042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 104,
+        "Latitude": 36.1925903,
+        "Longitude": 127.1001148,
+        "name_Korean": "논산",
+        "name_English": "Nonsan",
+        "name": "",
+        "__lat": 36.1925903,
+        "__lon": 127.1001148,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1001148,
+          36.1925903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 105,
+        "Latitude": 36.1074145,
+        "Longitude": 127.4831885,
+        "name_Korean": "금산",
+        "name_English": "Geumsan",
+        "name": "",
+        "__lat": 36.1074145,
+        "__lon": 127.4831885,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4831885,
+          36.1074145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 106,
+        "Latitude": 36.0135454,
+        "Longitude": 126.6972483,
+        "name_Korean": "서천",
+        "name_English": "Seocheon",
+        "name": "",
+        "__lat": 36.0135454,
+        "__lon": 126.6972483,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6972483,
+          36.0135454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 107,
+        "Latitude": 36.0084587,
+        "Longitude": 127.6539817,
+        "name_Korean": "무주",
+        "name_English": "Muju",
+        "name": "",
+        "__lat": 36.0084587,
+        "__lon": 127.6539817,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6539817,
+          36.0084587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 108,
+        "Latitude": 35.9918727,
+        "Longitude": 126.7097813,
+        "name_Korean": "군산",
+        "name_English": "Gunsan",
+        "name": "",
+        "__lat": 35.9918727,
+        "__lon": 126.7097813,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7097813,
+          35.9918727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 109,
+        "Latitude": 35.9617034,
+        "Longitude": 127.0046179,
+        "name_Korean": "익산",
+        "name_English": "Iksan",
+        "name": "",
+        "__lat": 35.9617034,
+        "__lon": 127.0046179,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0046179,
+          35.9617034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 110,
+        "Latitude": 35.846396,
+        "Longitude": 127.1496214,
+        "name_Korean": "전북",
+        "name_English": "Jeonbuk",
+        "name": "",
+        "__lat": 35.846396,
+        "__lon": 127.1496214,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1496214,
+          35.846396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 111,
+        "Latitude": 35.7998592,
+        "Longitude": 126.8995714,
+        "name_Korean": "김제",
+        "name_English": "Gimje",
+        "name": "",
+        "__lat": 35.7998592,
+        "__lon": 126.8995714,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8995714,
+          35.7998592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 112,
+        "Latitude": 35.7894402,
+        "Longitude": 127.4219239,
+        "name_Korean": "진안",
+        "name_English": "Jinan",
+        "name": "",
+        "__lat": 35.7894402,
+        "__lon": 127.4219239,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4219239,
+          35.7894402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 113,
+        "Latitude": 35.7868869,
+        "Longitude": 127.1305519,
+        "name_Korean": "남전주",
+        "name_English": "Southern Jeonju",
+        "name": "",
+        "__lat": 35.7868869,
+        "__lon": 127.1305519,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1305519,
+          35.7868869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 114,
+        "Latitude": 35.7379884,
+        "Longitude": 126.7341292,
+        "name_Korean": "부안",
+        "name_English": "Buan",
+        "name": "",
+        "__lat": 35.7379884,
+        "__lon": 126.7341292,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7341292,
+          35.7379884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 115,
+        "Latitude": 35.6448002,
+        "Longitude": 127.5179628,
+        "name_Korean": "장수",
+        "name_English": "Jangsu",
+        "name": "",
+        "__lat": 35.6448002,
+        "__lon": 127.5179628,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5179628,
+          35.6448002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 116,
+        "Latitude": 35.6204419,
+        "Longitude": 127.2859375,
+        "name_Korean": "임실",
+        "name_English": "Imsil",
+        "name": "",
+        "__lat": 35.6204419,
+        "__lon": 127.2859375,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2859375,
+          35.6204419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 117,
+        "Latitude": 35.569177,
+        "Longitude": 126.8436756,
+        "name_Korean": "정읍",
+        "name_English": "Jeongeup",
+        "name": "",
+        "__lat": 35.569177,
+        "__lon": 126.8436756,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8436756,
+          35.569177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 118,
+        "Latitude": 35.4252935,
+        "Longitude": 126.6951147,
+        "name_Korean": "고창",
+        "name_English": "Gochang",
+        "name": "",
+        "__lat": 35.4252935,
+        "__lon": 126.6951147,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6951147,
+          35.4252935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 119,
+        "Latitude": 35.416354,
+        "Longitude": 127.3869149,
+        "name_Korean": "남원",
+        "name_English": "Namwon",
+        "name": "",
+        "__lat": 35.416354,
+        "__lon": 127.3869149,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3869149,
+          35.416354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 120,
+        "Latitude": 35.370988,
+        "Longitude": 127.1511991,
+        "name_Korean": "순창",
+        "name_English": "Sunchang",
+        "name": "",
+        "__lat": 35.370988,
+        "__lon": 127.1511991,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1511991,
+          35.370988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 121,
+        "Latitude": 35.3112113,
+        "Longitude": 126.7965808,
+        "name_Korean": "장성",
+        "name_English": "Jangseong",
+        "name": "",
+        "__lat": 35.3112113,
+        "__lon": 126.7965808,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7965808,
+          35.3112113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 122,
+        "Latitude": 35.3093444,
+        "Longitude": 126.9840302,
+        "name_Korean": "담양",
+        "name_English": "Damyang",
+        "name": "",
+        "__lat": 35.3093444,
+        "__lon": 126.9840302,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9840302,
+          35.3093444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 123,
+        "Latitude": 35.2775962,
+        "Longitude": 127.2911363,
+        "name_Korean": "곡성",
+        "name_English": "Gokseong",
+        "name": "",
+        "__lat": 35.2775962,
+        "__lon": 127.2911363,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2911363,
+          35.2775962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 124,
+        "Latitude": 35.2732643,
+        "Longitude": 126.5036994,
+        "name_Korean": "영광",
+        "name_English": "Yeonggwang",
+        "name": "",
+        "__lat": 35.2732643,
+        "__lon": 126.5036994,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5036994,
+          35.2732643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 125,
+        "Latitude": 35.1980957,
+        "Longitude": 127.4633506,
+        "name_Korean": "구례",
+        "name_English": "Gurye",
+        "name": "",
+        "__lat": 35.1980957,
+        "__lon": 127.4633506,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4633506,
+          35.1980957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 126,
+        "Latitude": 35.1849938,
+        "Longitude": 126.9065991,
+        "name_Korean": "광주전남",
+        "name_English": "Gwangju-Jeonnam",
+        "name": "",
+        "__lat": 35.1849938,
+        "__lon": 126.9065991,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9065991,
+          35.1849938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 127,
+        "Latitude": 35.1514663,
+        "Longitude": 126.8910386,
+        "name_Korean": "서광주",
+        "name_English": "West Gwangju",
+        "name": "",
+        "__lat": 35.1514663,
+        "__lon": 126.8910386,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8910386,
+          35.1514663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 128,
+        "Latitude": 35.1473089,
+        "Longitude": 126.7898299,
+        "name_Korean": "광산",
+        "name_English": "Gwangsan",
+        "name": "",
+        "__lat": 35.1473089,
+        "__lon": 126.7898299,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7898299,
+          35.1473089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 129,
+        "Latitude": 35.0602742,
+        "Longitude": 126.5184791,
+        "name_Korean": "함평",
+        "name_English": "Hampyeong",
+        "name": "",
+        "__lat": 35.0602742,
+        "__lon": 126.5184791,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5184791,
+          35.0602742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 130,
+        "Latitude": 35.056059,
+        "Longitude": 126.9791792,
+        "name_Korean": "화순",
+        "name_English": "Hwasun",
+        "name": "",
+        "__lat": 35.056059,
+        "__lon": 126.9791792,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9791792,
+          35.056059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 131,
+        "Latitude": 35.0179817,
+        "Longitude": 126.7133244,
+        "name_Korean": "나주",
+        "name_English": "Naju",
+        "name": "",
+        "__lat": 35.0179817,
+        "__lon": 126.7133244,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7133244,
+          35.0179817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 132,
+        "Latitude": 34.9916794,
+        "Longitude": 126.4710728,
+        "name_Korean": "무안",
+        "name_English": "Muan",
+        "name": "",
+        "__lat": 34.9916794,
+        "__lon": 126.4710728,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4710728,
+          34.9916794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 133,
+        "Latitude": 34.969474,
+        "Longitude": 127.4862135,
+        "name_Korean": "순천",
+        "name_English": "Suncheon",
+        "name": "",
+        "__lat": 34.969474,
+        "__lon": 127.4862135,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4862135,
+          34.969474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 134,
+        "Latitude": 34.9398248,
+        "Longitude": 127.6911817,
+        "name_Korean": "광양",
+        "name_English": "Gwangyang",
+        "name": "",
+        "__lat": 34.9398248,
+        "__lon": 127.6911817,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6911817,
+          34.9398248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 135,
+        "Latitude": 34.8034534,
+        "Longitude": 126.4094598,
+        "name_Korean": "목포",
+        "name_English": "Mokpo",
+        "name": "",
+        "__lat": 34.8034534,
+        "__lon": 126.4094598,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4094598,
+          34.8034534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 136,
+        "Latitude": 34.800676,
+        "Longitude": 126.6950883,
+        "name_Korean": "영암",
+        "name_English": "Yeongam",
+        "name": "",
+        "__lat": 34.800676,
+        "__lon": 126.6950883,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6950883,
+          34.800676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 137,
+        "Latitude": 34.7661708,
+        "Longitude": 127.7040008,
+        "name_Korean": "여수",
+        "name_English": "Yeosu",
+        "name": "",
+        "__lat": 34.7661708,
+        "__lon": 127.7040008,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7040008,
+          34.7661708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 138,
+        "Latitude": 34.7623836,
+        "Longitude": 127.0725961,
+        "name_Korean": "보성",
+        "name_English": "Boseong",
+        "name": "",
+        "__lat": 34.7623836,
+        "__lon": 127.0725961,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0725961,
+          34.7623836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 139,
+        "Latitude": 34.7547881,
+        "Longitude": 126.1258283,
+        "name_Korean": "신안",
+        "name_English": "Sinan",
+        "name": "",
+        "__lat": 34.7547881,
+        "__lon": 126.1258283,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.1258283,
+          34.7547881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 140,
+        "Latitude": 34.6785624,
+        "Longitude": 126.9088733,
+        "name_Korean": "장흥",
+        "name_English": "Jangheung",
+        "name": "",
+        "__lat": 34.6785624,
+        "__lon": 126.9088733,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9088733,
+          34.6785624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 141,
+        "Latitude": 34.6350795,
+        "Longitude": 126.7778068,
+        "name_Korean": "강진",
+        "name_English": "Gangjin",
+        "name": "",
+        "__lat": 34.6350795,
+        "__lon": 126.7778068,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7778068,
+          34.6350795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 142,
+        "Latitude": 34.6171976,
+        "Longitude": 127.292276,
+        "name_Korean": "고흥",
+        "name_English": "Goheung",
+        "name": "",
+        "__lat": 34.6171976,
+        "__lon": 127.292276,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.292276,
+          34.6171976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 143,
+        "Latitude": 34.5718736,
+        "Longitude": 126.6093297,
+        "name_Korean": "해남",
+        "name_English": "Haenam",
+        "name": "",
+        "__lat": 34.5718736,
+        "__lon": 126.6093297,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6093297,
+          34.5718736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 144,
+        "Latitude": 34.4816926,
+        "Longitude": 126.2611809,
+        "name_Korean": "진도",
+        "name_English": "Jindo",
+        "name": "",
+        "__lat": 34.4816926,
+        "__lon": 126.2611809,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.2611809,
+          34.4816926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 145,
+        "Latitude": 34.3167296,
+        "Longitude": 126.7462849,
+        "name_Korean": "완도",
+        "name_English": "Wando",
+        "name": "",
+        "__lat": 34.3167296,
+        "__lon": 126.7462849,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7462849,
+          34.3167296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 146,
+        "Latitude": 36.2381588,
+        "Longitude": 128.5664163,
+        "name_Korean": "군위",
+        "name_English": "Gunwi",
+        "name": "",
+        "__lat": 36.2381588,
+        "__lon": 128.5664163,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5664163,
+          36.2381588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 147,
+        "Latitude": 36.1664543,
+        "Longitude": 127.7672096,
+        "name_Korean": "영동",
+        "name_English": "Yeongdong",
+        "name": "",
+        "__lat": 36.1664543,
+        "__lon": 127.7672096,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7672096,
+          36.1664543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 148,
+        "Latitude": 36.1268576,
+        "Longitude": 128.1197655,
+        "name_Korean": "김천",
+        "name_English": "Gimcheon",
+        "name": "",
+        "__lat": 36.1268576,
+        "__lon": 128.1197655,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.1197655,
+          36.1268576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 149,
+        "Latitude": 36.1178498,
+        "Longitude": 128.3500525,
+        "name_Korean": "구미",
+        "name_English": "Gumi",
+        "name": "",
+        "__lat": 36.1178498,
+        "__lon": 128.3500525,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3500525,
+          36.1178498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 150,
+        "Latitude": 36.1136567,
+        "Longitude": 129.3476427,
+        "name_Korean": "북포항",
+        "name_English": "Northern Pohang",
+        "name": "",
+        "__lat": 36.1136567,
+        "__lon": 129.3476427,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3476427,
+          36.1136567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 151,
+        "Latitude": 36.0105934,
+        "Longitude": 129.3476465,
+        "name_Korean": "포항",
+        "name_English": "Pohang",
+        "name": "",
+        "__lat": 36.0105934,
+        "__lon": 129.3476465,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3476465,
+          36.0105934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 152,
+        "Latitude": 35.9825138,
+        "Longitude": 128.3947963,
+        "name_Korean": "칠곡",
+        "name_English": "Chilgok",
+        "name": "",
+        "__lat": 35.9825138,
+        "__lon": 128.3947963,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3947963,
+          35.9825138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 153,
+        "Latitude": 35.9565703,
+        "Longitude": 128.9311391,
+        "name_Korean": "영천",
+        "name_English": "Yeongcheon",
+        "name": "",
+        "__lat": 35.9565703,
+        "__lon": 128.9311391,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9311391,
+          35.9565703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 154,
+        "Latitude": 35.9308092,
+        "Longitude": 128.2996123,
+        "name_Korean": "성주",
+        "name_English": "Seongju",
+        "name": "",
+        "__lat": 35.9308092,
+        "__lon": 128.2996123,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.2996123,
+          35.9308092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 155,
+        "Latitude": 35.8865906,
+        "Longitude": 128.5835863,
+        "name_Korean": "대구",
+        "name_English": "Daegu",
+        "name": "",
+        "__lat": 35.8865906,
+        "__lon": 128.5835863,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5835863,
+          35.8865906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 156,
+        "Latitude": 35.874943,
+        "Longitude": 128.6409753,
+        "name_Korean": "동대구",
+        "name_English": "Eastern Daegu",
+        "name": "",
+        "__lat": 35.874943,
+        "__lon": 128.6409753,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6409753,
+          35.874943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 157,
+        "Latitude": 35.8699046,
+        "Longitude": 128.5702802,
+        "name_Korean": "서대구",
+        "name_English": "Western Daegu",
+        "name": "",
+        "__lat": 35.8699046,
+        "__lon": 128.5702802,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5702802,
+          35.8699046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 158,
+        "Latitude": 35.8546331,
+        "Longitude": 129.2249442,
+        "name_Korean": "경주",
+        "name_English": "Gyeongju",
+        "name": "",
+        "__lat": 35.8546331,
+        "__lon": 129.2249442,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.2249442,
+          35.8546331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 159,
+        "Latitude": 35.8233624,
+        "Longitude": 128.7387814,
+        "name_Korean": "경산",
+        "name_English": "Gyeongsan",
+        "name": "",
+        "__lat": 35.8233624,
+        "__lon": 128.7387814,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7387814,
+          35.8233624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 160,
+        "Latitude": 35.8037443,
+        "Longitude": 128.493177,
+        "name_Korean": "남대구",
+        "name_English": "Southern Daegu",
+        "name": "",
+        "__lat": 35.8037443,
+        "__lon": 128.493177,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.493177,
+          35.8037443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 161,
+        "Latitude": 35.723972,
+        "Longitude": 128.2643709,
+        "name_Korean": "고령",
+        "name_English": "Goryeong",
+        "name": "",
+        "__lat": 35.723972,
+        "__lon": 128.2643709,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.2643709,
+          35.723972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 162,
+        "Latitude": 35.6869976,
+        "Longitude": 127.9237166,
+        "name_Korean": "거창",
+        "name_English": "Geochang",
+        "name": "",
+        "__lat": 35.6869976,
+        "__lon": 127.9237166,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9237166,
+          35.6869976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 163,
+        "Latitude": 35.6399837,
+        "Longitude": 128.7483704,
+        "name_Korean": "청도",
+        "name_English": "Cheongdo",
+        "name": "",
+        "__lat": 35.6399837,
+        "__lon": 128.7483704,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7483704,
+          35.6399837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 164,
+        "Latitude": 35.570517,
+        "Longitude": 128.1631123,
+        "name_Korean": "합천",
+        "name_English": "Hapcheon",
+        "name": "",
+        "__lat": 35.570517,
+        "__lon": 128.1631123,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.1631123,
+          35.570517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 165,
+        "Latitude": 35.5576859,
+        "Longitude": 129.1127764,
+        "name_Korean": "서울산",
+        "name_English": "Seoul-San",
+        "name": "",
+        "__lat": 35.5576859,
+        "__lon": 129.1127764,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1127764,
+          35.5576859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 166,
+        "Latitude": 35.5574128,
+        "Longitude": 129.3595736,
+        "name_Korean": "동울산",
+        "name_English": "Eastern Ulsan",
+        "name": "",
+        "__lat": 35.5574128,
+        "__lon": 129.3595736,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3595736,
+          35.5574128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 167,
+        "Latitude": 35.5416431,
+        "Longitude": 129.3249546,
+        "name_Korean": "울산",
+        "name_English": "Ulsan",
+        "name": "",
+        "__lat": 35.5416431,
+        "__lon": 129.3249546,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3249546,
+          35.5416431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 168,
+        "Latitude": 35.5367842,
+        "Longitude": 128.5007601,
+        "name_Korean": "창녕",
+        "name_English": "Changnyeong",
+        "name": "",
+        "__lat": 35.5367842,
+        "__lon": 128.5007601,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5007601,
+          35.5367842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 169,
+        "Latitude": 35.5266968,
+        "Longitude": 127.7289933,
+        "name_Korean": "함양",
+        "name_English": "Hamyang",
+        "name": "",
+        "__lat": 35.5266968,
+        "__lon": 127.7289933,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7289933,
+          35.5266968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 170,
+        "Latitude": 35.4734316,
+        "Longitude": 128.7649554,
+        "name_Korean": "밀양",
+        "name_English": "Miryang",
+        "name": "",
+        "__lat": 35.4734316,
+        "__lon": 128.7649554,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7649554,
+          35.4734316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 171,
+        "Latitude": 35.4133242,
+        "Longitude": 127.8749111,
+        "name_Korean": "산청",
+        "name_English": "Sancheong",
+        "name": "",
+        "__lat": 35.4133242,
+        "__lon": 127.8749111,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8749111,
+          35.4133242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 172,
+        "Latitude": 35.3538289,
+        "Longitude": 129.0471722,
+        "name_Korean": "양산",
+        "name_English": "Yangsan",
+        "name": "",
+        "__lat": 35.3538289,
+        "__lon": 129.0471722,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0471722,
+          35.3538289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 173,
+        "Latitude": 35.3193117,
+        "Longitude": 128.2566547,
+        "name_Korean": "의령",
+        "name_English": "Uiryeong",
+        "name": "",
+        "__lat": 35.3193117,
+        "__lon": 128.2566547,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.2566547,
+          35.3193117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 174,
+        "Latitude": 35.2744788,
+        "Longitude": 128.3987678,
+        "name_Korean": "함안",
+        "name_English": "Haman",
+        "name": "",
+        "__lat": 35.2744788,
+        "__lon": 128.3987678,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3987678,
+          35.2744788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 175,
+        "Latitude": 35.2344076,
+        "Longitude": 129.2196368,
+        "name_Korean": "기장",
+        "name_English": "Gijang",
+        "name": "",
+        "__lat": 35.2344076,
+        "__lon": 129.2196368,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.2196368,
+          35.2344076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 176,
+        "Latitude": 35.2322317,
+        "Longitude": 128.5364256,
+        "name_Korean": "마산",
+        "name_English": "Masan",
+        "name": "",
+        "__lat": 35.2322317,
+        "__lon": 128.5364256,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5364256,
+          35.2322317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 177,
+        "Latitude": 35.2317245,
+        "Longitude": 128.6890297,
+        "name_Korean": "경남",
+        "name_English": "Gyeongnam",
+        "name": "",
+        "__lat": 35.2317245,
+        "__lon": 128.6890297,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6890297,
+          35.2317245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 178,
+        "Latitude": 35.2276497,
+        "Longitude": 128.8889606,
+        "name_Korean": "김해",
+        "name_English": "Gimhae",
+        "name": "",
+        "__lat": 35.2276497,
+        "__lon": 128.8889606,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8889606,
+          35.2276497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 179,
+        "Latitude": 35.196844,
+        "Longitude": 129.1049123,
+        "name_Korean": "동래",
+        "name_English": "Dongnae",
+        "name": "",
+        "__lat": 35.196844,
+        "__lon": 129.1049123,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1049123,
+          35.196844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 180,
+        "Latitude": 35.1807228,
+        "Longitude": 128.1219249,
+        "name_Korean": "진주",
+        "name_English": "Jinju",
+        "name": "",
+        "__lat": 35.1807228,
+        "__lon": 128.1219249,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.1219249,
+          35.1807228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 181,
+        "Latitude": 35.1687476,
+        "Longitude": 128.9898279,
+        "name_Korean": "북부산",
+        "name_English": "Northern Busan",
+        "name": "",
+        "__lat": 35.1687476,
+        "__lon": 128.9898279,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9898279,
+          35.1687476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 182,
+        "Latitude": 35.167323,
+        "Longitude": 128.9568626,
+        "name_Korean": "서부산",
+        "name_English": "Western Busan",
+        "name": "",
+        "__lat": 35.167323,
+        "__lon": 128.9568626,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.9568626,
+          35.167323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 183,
+        "Latitude": 35.1637947,
+        "Longitude": 128.6611743,
+        "name_Korean": "진해",
+        "name_English": "Jinhae",
+        "name": "",
+        "__lat": 35.1637947,
+        "__lon": 128.6611743,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6611743,
+          35.1637947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 184,
+        "Latitude": 35.1601792,
+        "Longitude": 129.1447624,
+        "name_Korean": "남부산",
+        "name_English": "Southern Busan",
+        "name": "",
+        "__lat": 35.1601792,
+        "__lon": 129.1447624,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1447624,
+          35.1601792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 185,
+        "Latitude": 35.1526224,
+        "Longitude": 129.0613592,
+        "name_Korean": "부산울산",
+        "name_English": "Busan-Ulsan",
+        "name": "",
+        "__lat": 35.1526224,
+        "__lon": 129.0613592,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0613592,
+          35.1526224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 186,
+        "Latitude": 35.0993232,
+        "Longitude": 129.0232228,
+        "name_Korean": "중부산",
+        "name_English": "Central Busan",
+        "name": "",
+        "__lat": 35.0993232,
+        "__lon": 129.0232228,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0232228,
+          35.0993232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 187,
+        "Latitude": 35.0880552,
+        "Longitude": 129.0362927,
+        "name_Korean": "영도",
+        "name_English": "Yeongdo",
+        "name": "",
+        "__lat": 35.0880552,
+        "__lon": 129.0362927,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0362927,
+          35.0880552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 188,
+        "Latitude": 35.0646945,
+        "Longitude": 127.7456133,
+        "name_Korean": "하동",
+        "name_English": "Hadong",
+        "name": "",
+        "__lat": 35.0646945,
+        "__lon": 127.7456133,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7456133,
+          35.0646945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 189,
+        "Latitude": 34.9727632,
+        "Longitude": 128.3256539,
+        "name_Korean": "고성",
+        "name_English": "Goseong",
+        "name": "",
+        "__lat": 34.9727632,
+        "__lon": 128.3256539,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3256539,
+          34.9727632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 190,
+        "Latitude": 34.9314571,
+        "Longitude": 128.0812632,
+        "name_Korean": "사천",
+        "name_English": "Sacheon",
+        "name": "",
+        "__lat": 34.9314571,
+        "__lon": 128.0812632,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0812632,
+          34.9314571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 191,
+        "Latitude": 34.8899811,
+        "Longitude": 128.6180426,
+        "name_Korean": "거제",
+        "name_English": "Geoje",
+        "name": "",
+        "__lat": 34.8899811,
+        "__lon": 128.6180426,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6180426,
+          34.8899811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 192,
+        "Latitude": 34.8823395,
+        "Longitude": 128.4167527,
+        "name_Korean": "통영",
+        "name_English": "Tongyeong",
+        "name": "",
+        "__lat": 34.8823395,
+        "__lon": 128.4167527,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4167527,
+          34.8823395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bus_id": 193,
+        "Latitude": 34.8515466,
+        "Longitude": 127.8942976,
+        "name_Korean": "남해",
+        "name_English": "Namhae",
+        "name": "",
+        "__lat": 34.8515466,
+        "__lon": 127.8942976,
+        "__name": "",
+        "__voltage_kv": null,
+        "voltage_kv": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8942976,
+          34.8515466
+        ]
+      }
+    }
+  ]
+}
