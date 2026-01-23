@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Substations / Hospitals / Military (OSM)</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    #map { height: 100%; }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  const map = L.map('map').setView([36.5, 127.9], 7);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // =========================
+  // 파일 경로
+  // =========================
+  const FILES = {
+    substations: "./substations.geojson",
+    hospitals: "./hospitals.geojson",
+    hospitalLinks: "./hospital_links.geojson",
+    military: "./military_categorized.geojson",
+    militaryLinks: "./military_links_categorized.geojson"
+  };
+
+  // =========================
+  // 병원 "유형"은 코드에서 주석으로 on/off
+  // =========================
+  const ENABLED_HOSPITAL_KINDS = new Set([
+    "상급종합병원",
+    // "종합병원",
+    // "병원",
+    // "의원",
+    "기타",
+  ]);
+
+  const ENABLED_HOSPITAL_LINK_KINDS = new Set([
+    "상급종합병원",
+    // "종합병원",
+    // "병원",
+    // "의원",
+    "기타",
+  ]);
+
+
+ const ENABLED_MILITARY_KINDS = new Set([
+    "1",
+    "2",
+    "3",
+    // "4",
+    // "5",
+    // "6",
+    // "7",
+    "undefined",
+  ]);
+
+  const ENABLED_MILITARY_LINK_KINDS = new Set([
+      "1",
+      "2",
+       "3",
+    // "4",
+    // "5",
+    // "6",
+    // "7",
+    "undefined",
+  ]);
+
+
+  // =========================
+  // Helpers
+  // =========================
+  async function loadGeoJSON(url){
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(`Failed to load ${url}: ${r.status}`);
+    return await r.json();
+  }
+
+  function makeIcon(url, size){
+    return L.icon({
+      iconUrl: url,
+      iconSize: [size, size],
+      iconAnchor: [size/2, size],
+      popupAnchor: [0, -size]
+    });
+  }
+
+  function substationSize(voltage){
+    const v = Number(voltage);
+    if (!isFinite(v)) return 30;
+    if (v >= 700) return 40;
+    if (v >= 300) return 25;
+    return 24;
+  }
+
+  function getHospitalKind(p){
+    return (p?.kind ?? p?.["유형"] ?? "").toString().trim() || "기타";
+  }
+
+  function getMilitaryKind(p){
+    return (p?.category ?? p?.["유형"] ?? "").toString().trim() || "기타";
+  }
+
+
+  function hospitalIconByKind(kind){
+    const k = (kind || "").trim();
+    if (k === "상급종합병원") return { url: "./hospital.png",  size: 25 };
+    // if (k === "종합병원")     return { url: "./hospital2.png", size: 30 };
+    return { url: "./hospital2.png", size: 22 };
+  }
+
+  function getHospitalKindFromLinkProps(p){
+    return (p?.from_kind ?? p?.from_hospital_kind ?? p?.kind ?? p?.["유형"] ?? "")
+      .toString().trim() || "기타";
+  }
+
+  function militaryIconByKind(kind){
+    const k = (kind || "").trim();
+    if (k === "1") return { url: "./military.png",  size: 25 };
+    if (k === "2") return { url: "./military.png",  size: 20 };
+    if (k === "3") return { url: "./military.png",  size: 15 };
+    if (k === "undefined") return { url: "./military.png",  size: 25 };
+    // if (k === "4")     return { url: "./hospital2.png", size: 30 };
+    return { url: "./hospital2.png", size: 22 };
+  }
+
+  function getMilitaryKindFromLinkProps(p){
+    return (p?.from_kind ?? p?.from_hospital_kind ?? p?.kind ?? p?.["유형"] ?? "")
+      .toString().trim() || "기타";
+  }
+
+
+
+  // =========================
+  // Layers (토글은 큰 단위만)
+  // =========================
+  const layerSubs = L.layerGroup().addTo(map);
+  const layerHosp = L.layerGroup().addTo(map);
+  const layerHospLinks = L.layerGroup().addTo(map);
+  const layerMil = L.layerGroup().addTo(map);
+  const layerMilLinks = L.layerGroup().addTo(map);
+  (async () => {
+    // 1) Substations
+    {
+      const gj = await loadGeoJSON(FILES.substations);
+      L.geoJSON(gj, {
+        pointToLayer: (f, latlng) => {
+          const v = f.properties?.voltage_kv ?? f.properties?.["전압[kV]"];
+          const size = substationSize(v);
+          return L.marker(latlng, { icon: makeIcon("./transformer.png", size) });
+        },
+        onEachFeature: (f, layer) => {
+          const p = f.properties || {};
+          const name = p.name || p["변전소"] || "-";
+          const v = p.voltage_kv ?? p["전압[kV]"] ?? "-";
+          layer.bindPopup(`<b>변전소</b><br/>${name}<br/>전압: ${v}`);
+        }
+      }).addTo(layerSubs);
+    }
+
+    // 2) Hospitals
+    {
+      const gj = await loadGeoJSON(FILES.hospitals);
+      L.geoJSON(gj, {
+        filter: (f) => {
+          const kind = getHospitalKind(f.properties || {});
+          return ENABLED_HOSPITAL_KINDS.has(kind);
+        },
+        pointToLayer: (f, latlng) => {
+          const p = f.properties || {};
+          const kind = getHospitalKind(p);
+          const iconSpec = hospitalIconByKind(kind);
+          return L.marker(latlng, { icon: makeIcon(iconSpec.url, iconSpec.size) });
+        },
+        onEachFeature: (f, layer) => {
+          const p = f.properties || {};
+          const name = p.name || p["기관명"] || "-";
+          const kind = getHospitalKind(p);
+          const addr = p["주소"] || "-";
+          layer.bindPopup(`<b>병원</b><br/>${name}<br/>유형: ${kind}<br/>주소: ${addr}`);
+        }
+      }).addTo(layerHosp);
+    }
+
+    // 3) Hospital Links (유형별은 코드에서 주석 on/off)
+    {
+      const gj = await loadGeoJSON(FILES.hospitalLinks);
+      const style = { weight: 1, opacity: 0.6 };
+
+      L.geoJSON(gj, {
+        style,
+        filter: (f) => {
+          const p = f.properties || {};
+          const kind = getHospitalKindFromLinkProps(p);
+          return ENABLED_HOSPITAL_LINK_KINDS.has(kind);
+        },
+        onEachFeature: (f, layer) => {
+          const p = f.properties || {};
+          const fromName = p.from_name ?? p["from_name"] ?? p["기관명"] ?? "-";
+          const toSub = p.to_substation ?? p["to_substation"] ?? "-";
+          const dist = p.dist_m ?? p["dist_m"] ?? 0;
+          const kind = getHospitalKindFromLinkProps(p);
+
+          layer.bindPopup(
+            `<b>연결(병원→변전소)</b><br/>${fromName} → ${toSub}<br/>유형: ${kind}<br/>거리(m): ${Math.round(dist)}`
+          );
+        }
+      }).addTo(layerHospLinks);
+    }
+
+    // 4) Military (단일 레이어만 표시, category 필터/표시는 하지 않음)
+    {
+      const gj = await loadGeoJSON(FILES.military);
+      L.geoJSON(gj, {
+        filter: (f) => {
+          const kind = getMilitaryKind(f.properties || {});
+          return ENABLED_MILITARY_KINDS.has(kind);
+        },
+        pointToLayer: (f, latlng) => {
+            const p = f.properties || {};
+            const kind = getMilitaryKind(p);
+            const iconSpec = militaryIconByKind(kind);
+          return L.marker(latlng, { icon: makeIcon(iconSpec.url, iconSpec.size) });
+        },
+        onEachFeature: (f, layer) => {
+          const p = f.properties || {};
+          const name = p.name || "-";
+          const kind = getMilitaryKind(p);
+          layer.bindPopup(`<b>군사시설</b><br/>${name}<br/>Category: ${kind}`);
+        }
+      }).addTo(layerMil);
+    }
+
+
+// 3) Military Links (유형별은 코드에서 주석 on/off)
+    {
+      const gj = await loadGeoJSON(FILES.militaryLinks);
+      const style = { weight: 1, opacity: 0.6 };
+
+      L.geoJSON(gj, {
+        style,
+        filter: (f) => {
+          const p = f.properties || {};
+          const kind = getMilitaryKindFromLinkProps(p);
+          return ENABLED_MILITARY_LINK_KINDS.has(kind);
+        },
+        onEachFeature: (f, layer) => {
+          const p = f.properties || {};
+          const fromName = p.from_name ?? p["from_name"] ?? p["기관명"] ?? "-";
+          const toSub = p.to_substation ?? p["to_substation"] ?? "-";
+          const dist = p.dist_m ?? p["dist_m"] ?? 0;
+          const kind = getMilitaryKindFromLinkProps(p);
+
+          layer.bindPopup(
+            `<b>연결(군시설→변전소)</b><br/>${fromName} → ${toSub}<br/>유형: ${kind}<br/>거리(m): ${Math.round(dist)}`
+          );
+        }
+      }).addTo(layerMilLinks);
+    }
+
+
+
+
+    // 5) Layer control
+    L.control.layers(null, {
+      "변전소": layerSubs,
+      "병원": layerHosp,
+      "연결선(병원→변전소)": layerHospLinks,
+      "연결선(군사시설→변전소)": layerMilLinks,
+      "군사시설": layerMil
+    }, { collapsed: false }).addTo(map);
+
+  })().catch(err => {
+    console.error(err);
+    alert(err.message || String(err));
+  });
+</script>
+</body>
+</html>
