@@ -12,3 +12,8 @@ preparing_data.py: csv파일을 geojson파일로 변환하여 html로 들어가�
 
 main.py : 변전소 업데이트 코드(현재 사용 x)
 json to csv : military json 파일을 csv  파일로 변환하기 위함
+
+
+(update)는 병상 수를 기준으로 추정한 전력 소비량을 추가한 것
+계산을 위해 준비물 파일: energy_hospital.csv, (upper)hospital.csv
+계산 파일: calc_energy(hospital).py
