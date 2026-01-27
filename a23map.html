@@ -76,8 +76,8 @@
   // =========================
   const FILES = {
     substations: "./substations2.geojson",
-    hospitals: "./hospitals2.geojson",
-    hospitalLinks: "./hospital_links2.geojson",
+    hospitals: "./hospitals(update).geojson",
+    hospitalLinks: "./hospital_links(update).geojson",
     military: "./military_categorized2.geojson",
     militaryLinks: "./military_links_categorized2.geojson"
   };
@@ -290,8 +290,8 @@ function setPanelForSubstation(p){
           const p = f.properties || {};
           const name = p.name || p["기관명"] || "-";
           const kind = getHospitalKind(p);
-          const addr = p["주소"] || "-";
-          layer.bindPopup(`<b>병원</b><br/>${name}<br/>유형: ${kind}<br/>주소: ${addr}`);
+          const electricity = p["electricity"] || "-";
+          layer.bindPopup(`<b>병원</b><br/>${name}<br/>유형: ${kind}<br/>전기사용량(kWh): ${electricity}`);
         }
       }).addTo(layerHosp);
     }
@@ -391,4 +391,5 @@ function setPanelForSubstation(p){
 </script>
 </body>
 </html>
+
 
