@@ -299,7 +299,7 @@ function setPanelForSubstation(p){
     // 3) Hospital Links (유형별은 코드에서 주석 on/off)
     {
       const gj = await loadGeoJSON(FILES.hospitalLinks);
-      const style = { weight: 1, opacity: 0.6 };
+      const style = {color: "#F52727", weight: 3, opacity: 0.3 };
 
       L.geoJSON(gj, {
         style,
@@ -391,5 +391,6 @@ function setPanelForSubstation(p){
 </script>
 </body>
 </html>
+
 
 
